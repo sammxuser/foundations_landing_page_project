@@ -1,0 +1,20 @@
+* {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.navbar {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  justify-content: flex-end;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.header {
+  background-color: #1f2937;
+  color: white;
+}
