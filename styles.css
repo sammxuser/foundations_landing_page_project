@@ -28,7 +28,11 @@ li.logo {
   background-color: #1f2937;
   color: white;
   display: flex;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
+
 .header h2 {
   font-size: 48px;
   font-weight: extra-bold;
@@ -40,26 +44,136 @@ li.logo {
 }
 .header button {
   background-color: #3882fa;
-  color: white;
+  border-radius: 5px;
+  color: #e5e7eb;
+  border-color: #e5e7eb;
+}
+.image {
+  background-color: grey;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.randomHeader {
+  font-size: larger;
+  text-align: center;
+  font-weight: bolder;
 }
 .random {
   background-color: white;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: auto;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+.rand-text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.randtext1 {
+  font-size: 10px;
+}
+.random-text1 {
+  border: 2px solid #3882fa;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.rand-text2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.randtext2 {
+  font-size: 10px;
+}
+.random-text2 {
+  border: 2px solid #3882fa;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.rand-text3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.randtext3 {
+  font-size: 10px;
+}
+.random-text3 {
+  border: 2px solid #3882fa;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.rand-text4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.randtext4 {
+  font-size: 10px;
+  text-align: center;
+}
+.random-text4 {
+  border: 2px solid #3882fa;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
 }
 .quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
   background-color: #e5e7eb;
   font-size: 36px;
   font-weight: light;
   font-style: italic #1f2937;
+  padding: 40px;
+}
+
+.quote-owner {
+  text-align: right;
 }
 .sign-up {
   display: flex;
-  background-color: #3882fa;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 .call-to-action {
+  background-color: #3882fa;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.call-to-action-text {
+  color: #e5e7eb;
+}
+.sign-up-button button {
+  background-color: #3882fa;
+  border-radius: 5px;
+  color: #e5e7eb;
+  border-color: #e5e7eb;
+}
+
 .footer {
   justify-self: flex-end;
   background-color: #1f2937;
   color: white;
+}
+.footer-text {
+  text-align: center;
 }
